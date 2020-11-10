@@ -17,22 +17,22 @@
             </a>
             <div class="dropdown-menu dropdown-with-icons">
               <a href="./index.html" class="dropdown-item">
-                <i class="material-icons">layers</i> All Components
-              </a>
-              <a href="https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html" class="dropdown-item">
-                <i class="material-icons">content_paste</i> Documentation
-              </a>
+                <i class="material-icons">games</i>Game 1</a>
+              <a href="" class="dropdown-item">
+                <i class="material-icons">games</i>Game 2</a>
+              <a href="" class="dropdown-item">
+                <i class="material-icons">games</i>Game 3</a>
+              <a href="" class="dropdown-item">
+                <i class="material-icons">games</i>Game 4</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
-              <i class="material-icons">cloud_download</i> Download
-            </a>
+            <a class="nav-link" href="" onclick="">
+              <i class="material-icons">groups</i>About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.creative-tim.com/product/material-kit-pro" target="_blank">
-              <i class="material-icons">unarchive</i> Upgrade to PRO
-            </a>
+            <a class="nav-link" href="" onclick="">
+              <i class="material-icons">groups</i></a>
           </li>
         </ul>
       </div>

@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-<?php include('header.php'); ?>
 <head>
   <title>Hackstreet Boys</title>
   <!-- Required meta tags -->
@@ -14,23 +13,49 @@
   <link href="assets/css/material-kit.css?v=2.0.7" rel="stylesheet" />
 </head>
 
+
 <body>
-  <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/bg3.jpg')">
+<?php include('header.php'); ?>
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/city-profile.jpg')">
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand text-center">
-            <h1>Your title here</h1>
-            <h3 class="title text-center">Subtitle</h3>
+            <h1>Hackstreet</h1>
+            <h3 class="title text-center">ByteJam 2020</h3>
           </div>
         </div>
       </div>
     </div>
   </div>
+
   <div class="main main-raised">
     <div class="container">
-      <div class="section text-center">
-        <h2 class="title">Your main section here</h2>
+      <div id="images">
+      <div class="space-50"></div>
+        <div class="title">
+          <h2>Images</h2>
+        </div>
+        <br>
+          <div class="row">
+            <div class="col-sm-2 ml-auto">
+                <img src="./assets/img/placeholder clear.png" alt="Raised Image" class="img-raised rounded img-fluid">
+                <h4>Rounded Raised</h4>
+            </div>
+            <div class="col-sm-2 ml-auto">
+              <img src="./assets/img/placeholder clear.png" alt="Raised Image" class="img-raised rounded img-fluid">
+                <h4>Rounded Raised</h4>
+            </div>
+            <div class="col-sm-2 ml-auto">
+              <img src="./assets/img/placeholder clear.png" alt="Raised Image" class="img-raised rounded img-fluid">
+                <h4>Rounded Raised</h4>
+            </div>
+            <div class="col-sm-2 ml-auto">
+              <img src="./assets/img/placeholder clear.png" alt="Raised Image" class="img-raised rounded img-fluid">
+                <h4>Rounded Raised</h4>
+            </div>
+          </div>
+          <div class="space-50"></div>
       </div>
     </div>
   </div>
