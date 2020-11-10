@@ -1,6 +1,6 @@
 ﻿namespace Presidential_App
 {
-    partial class Form1
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -31,23 +31,20 @@
             this.components = new System.ComponentModel.Container();
             this.Popularity = new System.Windows.Forms.TabControl();
             this.Events = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.Actionslabel = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.Democrats = new System.Windows.Forms.Label();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.Eventbtn = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.progressBar2 = new System.Windows.Forms.ProgressBar();
-            this.progressBar3 = new System.Windows.Forms.ProgressBar();
-            this.progressBar4 = new System.Windows.Forms.ProgressBar();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.progressBar5 = new System.Windows.Forms.ProgressBar();
+            this.progressBar4 = new System.Windows.Forms.ProgressBar();
+            this.progressBar3 = new System.Windows.Forms.ProgressBar();
+            this.progressBar2 = new System.Windows.Forms.ProgressBar();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Democrats = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.progressBar6 = new System.Windows.Forms.ProgressBar();
             this.progressBar7 = new System.Windows.Forms.ProgressBar();
             this.progressBar8 = new System.Windows.Forms.ProgressBar();
@@ -58,20 +55,23 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.PublicSpeakinglbl = new System.Windows.Forms.Label();
-            this.Actionslbl = new System.Windows.Forms.Label();
-            this.ActionsEmpty = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.NewPolicylabel = new System.Windows.Forms.Label();
-            this.ManageForeignlabel = new System.Windows.Forms.Label();
+            this.Actionslabel = new System.Windows.Forms.TabPage();
             this.FederalFundsLabel = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.ForeignRelationslabel = new System.Windows.Forms.Label();
-            this.Agelabel = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.ManageForeignlabel = new System.Windows.Forms.Label();
+            this.NewPolicylabel = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.ActionsEmpty = new System.Windows.Forms.Label();
+            this.Actionslbl = new System.Windows.Forms.Label();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.RaceEmpty = new System.Windows.Forms.Label();
             this.GenderEmpty = new System.Windows.Forms.Label();
             this.AgeEmpty = new System.Windows.Forms.Label();
             this.NameEmpty = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.ForeignRelationslabel = new System.Windows.Forms.Label();
+            this.Agelabel = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.Popularity.SuspendLayout();
             this.Events.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -107,6 +107,24 @@
             this.Events.Text = "Events";
             this.Events.UseVisualStyleBackColor = true;
             // 
+            // Eventbtn
+            // 
+            this.Eventbtn.Location = new System.Drawing.Point(295, 334);
+            this.Eventbtn.Name = "Eventbtn";
+            this.Eventbtn.Size = new System.Drawing.Size(123, 45);
+            this.Eventbtn.TabIndex = 1;
+            this.Eventbtn.Text = "Events";
+            this.Eventbtn.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(16, 30);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.textBox1.Size = new System.Drawing.Size(673, 298);
+            this.textBox1.TabIndex = 0;
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.progressBar5);
@@ -127,6 +145,88 @@
             this.tabPage2.Text = "Popularity";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // progressBar5
+            // 
+            this.progressBar5.Location = new System.Drawing.Point(390, 251);
+            this.progressBar5.Name = "progressBar5";
+            this.progressBar5.Size = new System.Drawing.Size(204, 37);
+            this.progressBar5.TabIndex = 9;
+            // 
+            // progressBar4
+            // 
+            this.progressBar4.Location = new System.Drawing.Point(390, 208);
+            this.progressBar4.Name = "progressBar4";
+            this.progressBar4.Size = new System.Drawing.Size(204, 37);
+            this.progressBar4.TabIndex = 8;
+            // 
+            // progressBar3
+            // 
+            this.progressBar3.Location = new System.Drawing.Point(390, 152);
+            this.progressBar3.Name = "progressBar3";
+            this.progressBar3.Size = new System.Drawing.Size(204, 37);
+            this.progressBar3.TabIndex = 7;
+            // 
+            // progressBar2
+            // 
+            this.progressBar2.Location = new System.Drawing.Point(390, 99);
+            this.progressBar2.Name = "progressBar2";
+            this.progressBar2.Size = new System.Drawing.Size(204, 37);
+            this.progressBar2.TabIndex = 6;
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(390, 56);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(204, 37);
+            this.progressBar1.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(175, 251);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(209, 37);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Independents";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(175, 201);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(169, 37);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Libertarian";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(175, 152);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(188, 37);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Green Party";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(175, 99);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(199, 37);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Republicians";
+            // 
+            // Democrats
+            // 
+            this.Democrats.AutoSize = true;
+            this.Democrats.Location = new System.Drawing.Point(175, 49);
+            this.Democrats.Name = "Democrats";
+            this.Democrats.Size = new System.Drawing.Size(172, 37);
+            this.Democrats.TabIndex = 0;
+            this.Democrats.Text = "Democrats";
+            this.Democrats.Click += new System.EventHandler(this.Democrats_Click);
+            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.progressBar6);
@@ -146,140 +246,6 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Skills";
             this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // Actionslabel
-            // 
-            this.Actionslabel.Controls.Add(this.FederalFundsLabel);
-            this.Actionslabel.Controls.Add(this.ManageForeignlabel);
-            this.Actionslabel.Controls.Add(this.NewPolicylabel);
-            this.Actionslabel.Controls.Add(this.label9);
-            this.Actionslabel.Controls.Add(this.ActionsEmpty);
-            this.Actionslabel.Controls.Add(this.Actionslbl);
-            this.Actionslabel.Location = new System.Drawing.Point(4, 46);
-            this.Actionslabel.Name = "Actionslabel";
-            this.Actionslabel.Padding = new System.Windows.Forms.Padding(3);
-            this.Actionslabel.Size = new System.Drawing.Size(716, 386);
-            this.Actionslabel.TabIndex = 3;
-            this.Actionslabel.Text = "Actions";
-            this.Actionslabel.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Controls.Add(this.RaceEmpty);
-            this.tabPage5.Controls.Add(this.GenderEmpty);
-            this.tabPage5.Controls.Add(this.AgeEmpty);
-            this.tabPage5.Controls.Add(this.NameEmpty);
-            this.tabPage5.Controls.Add(this.label10);
-            this.tabPage5.Controls.Add(this.ForeignRelationslabel);
-            this.tabPage5.Controls.Add(this.Agelabel);
-            this.tabPage5.Controls.Add(this.label13);
-            this.tabPage5.Location = new System.Drawing.Point(4, 46);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(716, 386);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Bio";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(16, 30);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.textBox1.Size = new System.Drawing.Size(673, 298);
-            this.textBox1.TabIndex = 0;
-            // 
-            // Democrats
-            // 
-            this.Democrats.AutoSize = true;
-            this.Democrats.Location = new System.Drawing.Point(175, 49);
-            this.Democrats.Name = "Democrats";
-            this.Democrats.Size = new System.Drawing.Size(172, 37);
-            this.Democrats.TabIndex = 0;
-            this.Democrats.Text = "Democrats";
-            this.Democrats.Click += new System.EventHandler(this.Democrats_Click);
-            // 
-            // Eventbtn
-            // 
-            this.Eventbtn.Location = new System.Drawing.Point(319, 360);
-            this.Eventbtn.Name = "Eventbtn";
-            this.Eventbtn.Size = new System.Drawing.Size(75, 23);
-            this.Eventbtn.TabIndex = 1;
-            this.Eventbtn.Text = "Events";
-            this.Eventbtn.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(175, 99);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 37);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Republicians";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(175, 152);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(188, 37);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Green Party";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(175, 201);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(169, 37);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Libertarian";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(175, 251);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(209, 37);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Independents";
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(390, 56);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(204, 37);
-            this.progressBar1.TabIndex = 5;
-            // 
-            // progressBar2
-            // 
-            this.progressBar2.Location = new System.Drawing.Point(390, 99);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(204, 37);
-            this.progressBar2.TabIndex = 6;
-            // 
-            // progressBar3
-            // 
-            this.progressBar3.Location = new System.Drawing.Point(390, 152);
-            this.progressBar3.Name = "progressBar3";
-            this.progressBar3.Size = new System.Drawing.Size(204, 37);
-            this.progressBar3.TabIndex = 7;
-            // 
-            // progressBar4
-            // 
-            this.progressBar4.Location = new System.Drawing.Point(390, 208);
-            this.progressBar4.Name = "progressBar4";
-            this.progressBar4.Size = new System.Drawing.Size(204, 37);
-            this.progressBar4.TabIndex = 8;
-            // 
-            // progressBar5
-            // 
-            this.progressBar5.Location = new System.Drawing.Point(390, 251);
-            this.progressBar5.Name = "progressBar5";
-            this.progressBar5.Size = new System.Drawing.Size(204, 37);
-            this.progressBar5.TabIndex = 9;
             // 
             // progressBar6
             // 
@@ -364,24 +330,48 @@
             this.PublicSpeakinglbl.Text = "Public Speaking";
             this.PublicSpeakinglbl.Click += new System.EventHandler(this.PublicSpeakinglbl_Click);
             // 
-            // Actionslbl
+            // Actionslabel
             // 
-            this.Actionslbl.AutoSize = true;
-            this.Actionslbl.Location = new System.Drawing.Point(212, 7);
-            this.Actionslbl.Name = "Actionslbl";
-            this.Actionslbl.Size = new System.Drawing.Size(132, 37);
-            this.Actionslbl.TabIndex = 0;
-            this.Actionslbl.Text = "Actions:";
-            this.Actionslbl.Click += new System.EventHandler(this.Actionslbl_Click);
+            this.Actionslabel.Controls.Add(this.FederalFundsLabel);
+            this.Actionslabel.Controls.Add(this.ManageForeignlabel);
+            this.Actionslabel.Controls.Add(this.NewPolicylabel);
+            this.Actionslabel.Controls.Add(this.label9);
+            this.Actionslabel.Controls.Add(this.ActionsEmpty);
+            this.Actionslabel.Controls.Add(this.Actionslbl);
+            this.Actionslabel.Location = new System.Drawing.Point(4, 46);
+            this.Actionslabel.Name = "Actionslabel";
+            this.Actionslabel.Padding = new System.Windows.Forms.Padding(3);
+            this.Actionslabel.Size = new System.Drawing.Size(716, 386);
+            this.Actionslabel.TabIndex = 3;
+            this.Actionslabel.Text = "Actions";
+            this.Actionslabel.UseVisualStyleBackColor = true;
             // 
-            // ActionsEmpty
+            // FederalFundsLabel
             // 
-            this.ActionsEmpty.AutoSize = true;
-            this.ActionsEmpty.Location = new System.Drawing.Point(341, 7);
-            this.ActionsEmpty.Name = "ActionsEmpty";
-            this.ActionsEmpty.Size = new System.Drawing.Size(213, 37);
-            this.ActionsEmpty.TabIndex = 1;
-            this.ActionsEmpty.Text = "ActionsEmpty";
+            this.FederalFundsLabel.AutoSize = true;
+            this.FederalFundsLabel.Location = new System.Drawing.Point(238, 267);
+            this.FederalFundsLabel.Name = "FederalFundsLabel";
+            this.FederalFundsLabel.Size = new System.Drawing.Size(348, 37);
+            this.FederalFundsLabel.TabIndex = 5;
+            this.FederalFundsLabel.Text = "Manage Federal Funds";
+            // 
+            // ManageForeignlabel
+            // 
+            this.ManageForeignlabel.AutoSize = true;
+            this.ManageForeignlabel.Location = new System.Drawing.Point(238, 191);
+            this.ManageForeignlabel.Name = "ManageForeignlabel";
+            this.ManageForeignlabel.Size = new System.Drawing.Size(391, 37);
+            this.ManageForeignlabel.TabIndex = 4;
+            this.ManageForeignlabel.Text = "Manage Foreign Relations";
+            // 
+            // NewPolicylabel
+            // 
+            this.NewPolicylabel.AutoSize = true;
+            this.NewPolicylabel.Location = new System.Drawing.Point(238, 124);
+            this.NewPolicylabel.Name = "NewPolicylabel";
+            this.NewPolicylabel.Size = new System.Drawing.Size(305, 37);
+            this.NewPolicylabel.TabIndex = 3;
+            this.NewPolicylabel.Text = "Create a New Policy";
             // 
             // label9
             // 
@@ -393,32 +383,79 @@
             this.label9.Text = "Speech";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
-            // NewPolicylabel
+            // ActionsEmpty
             // 
-            this.NewPolicylabel.AutoSize = true;
-            this.NewPolicylabel.Location = new System.Drawing.Point(238, 124);
-            this.NewPolicylabel.Name = "NewPolicylabel";
-            this.NewPolicylabel.Size = new System.Drawing.Size(305, 37);
-            this.NewPolicylabel.TabIndex = 3;
-            this.NewPolicylabel.Text = "Create a New Policy";
+            this.ActionsEmpty.AutoSize = true;
+            this.ActionsEmpty.Location = new System.Drawing.Point(341, 7);
+            this.ActionsEmpty.Name = "ActionsEmpty";
+            this.ActionsEmpty.Size = new System.Drawing.Size(213, 37);
+            this.ActionsEmpty.TabIndex = 1;
+            this.ActionsEmpty.Text = "ActionsEmpty";
             // 
-            // ManageForeignlabel
+            // Actionslbl
             // 
-            this.ManageForeignlabel.AutoSize = true;
-            this.ManageForeignlabel.Location = new System.Drawing.Point(238, 191);
-            this.ManageForeignlabel.Name = "ManageForeignlabel";
-            this.ManageForeignlabel.Size = new System.Drawing.Size(391, 37);
-            this.ManageForeignlabel.TabIndex = 4;
-            this.ManageForeignlabel.Text = "Manage Foreign Relations";
+            this.Actionslbl.AutoSize = true;
+            this.Actionslbl.Location = new System.Drawing.Point(212, 7);
+            this.Actionslbl.Name = "Actionslbl";
+            this.Actionslbl.Size = new System.Drawing.Size(132, 37);
+            this.Actionslbl.TabIndex = 0;
+            this.Actionslbl.Text = "Actions:";
+            this.Actionslbl.Click += new System.EventHandler(this.Actionslbl_Click);
             // 
-            // FederalFundsLabel
+            // tabPage5
             // 
-            this.FederalFundsLabel.AutoSize = true;
-            this.FederalFundsLabel.Location = new System.Drawing.Point(238, 267);
-            this.FederalFundsLabel.Name = "FederalFundsLabel";
-            this.FederalFundsLabel.Size = new System.Drawing.Size(348, 37);
-            this.FederalFundsLabel.TabIndex = 5;
-            this.FederalFundsLabel.Text = "Manage Federal Funds";
+            this.tabPage5.Controls.Add(this.RaceEmpty);
+            this.tabPage5.Controls.Add(this.GenderEmpty);
+            this.tabPage5.Controls.Add(this.AgeEmpty);
+            this.tabPage5.Controls.Add(this.NameEmpty);
+            this.tabPage5.Controls.Add(this.label10);
+            this.tabPage5.Controls.Add(this.ForeignRelationslabel);
+            this.tabPage5.Controls.Add(this.Agelabel);
+            this.tabPage5.Controls.Add(this.label13);
+            this.tabPage5.Location = new System.Drawing.Point(4, 46);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(716, 386);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Bio";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // RaceEmpty
+            // 
+            this.RaceEmpty.AutoSize = true;
+            this.RaceEmpty.Location = new System.Drawing.Point(312, 266);
+            this.RaceEmpty.Name = "RaceEmpty";
+            this.RaceEmpty.Size = new System.Drawing.Size(180, 37);
+            this.RaceEmpty.TabIndex = 15;
+            this.RaceEmpty.Text = "RaceEmpty";
+            // 
+            // GenderEmpty
+            // 
+            this.GenderEmpty.AutoSize = true;
+            this.GenderEmpty.Location = new System.Drawing.Point(312, 196);
+            this.GenderEmpty.Name = "GenderEmpty";
+            this.GenderEmpty.Size = new System.Drawing.Size(213, 37);
+            this.GenderEmpty.TabIndex = 14;
+            this.GenderEmpty.Text = "GenderEmpty";
+            // 
+            // AgeEmpty
+            // 
+            this.AgeEmpty.AutoSize = true;
+            this.AgeEmpty.Location = new System.Drawing.Point(312, 129);
+            this.AgeEmpty.Name = "AgeEmpty";
+            this.AgeEmpty.Size = new System.Drawing.Size(164, 37);
+            this.AgeEmpty.TabIndex = 13;
+            this.AgeEmpty.Text = "AgeEmpty";
+            // 
+            // NameEmpty
+            // 
+            this.NameEmpty.AutoSize = true;
+            this.NameEmpty.Location = new System.Drawing.Point(312, 68);
+            this.NameEmpty.Name = "NameEmpty";
+            this.NameEmpty.Size = new System.Drawing.Size(193, 37);
+            this.NameEmpty.TabIndex = 12;
+            this.NameEmpty.Text = "NameEmpty";
+            this.NameEmpty.Click += new System.EventHandler(this.NameEmpty_Click);
             // 
             // label10
             // 
@@ -460,50 +497,13 @@
             this.label13.Text = "Name:";
             this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
-            // RaceEmpty
-            // 
-            this.RaceEmpty.AutoSize = true;
-            this.RaceEmpty.Location = new System.Drawing.Point(312, 266);
-            this.RaceEmpty.Name = "RaceEmpty";
-            this.RaceEmpty.Size = new System.Drawing.Size(180, 37);
-            this.RaceEmpty.TabIndex = 15;
-            this.RaceEmpty.Text = "RaceEmpty";
-            // 
-            // GenderEmpty
-            // 
-            this.GenderEmpty.AutoSize = true;
-            this.GenderEmpty.Location = new System.Drawing.Point(312, 196);
-            this.GenderEmpty.Name = "GenderEmpty";
-            this.GenderEmpty.Size = new System.Drawing.Size(213, 37);
-            this.GenderEmpty.TabIndex = 14;
-            this.GenderEmpty.Text = "GenderEmpty";
-            // 
-            // AgeEmpty
-            // 
-            this.AgeEmpty.AutoSize = true;
-            this.AgeEmpty.Location = new System.Drawing.Point(312, 129);
-            this.AgeEmpty.Name = "AgeEmpty";
-            this.AgeEmpty.Size = new System.Drawing.Size(164, 37);
-            this.AgeEmpty.TabIndex = 13;
-            this.AgeEmpty.Text = "AgeEmpty";
-            // 
-            // NameEmpty
-            // 
-            this.NameEmpty.AutoSize = true;
-            this.NameEmpty.Location = new System.Drawing.Point(312, 68);
-            this.NameEmpty.Name = "NameEmpty";
-            this.NameEmpty.Size = new System.Drawing.Size(193, 37);
-            this.NameEmpty.TabIndex = 12;
-            this.NameEmpty.Text = "NameEmpty";
-            this.NameEmpty.Click += new System.EventHandler(this.NameEmpty_Click);
-            // 
-            // Form1
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(740, 450);
             this.Controls.Add(this.Popularity);
-            this.Name = "Form1";
+            this.Name = "Form2";
             this.Text = "Form1";
             this.Popularity.ResumeLayout(false);
             this.Events.ResumeLayout(false);

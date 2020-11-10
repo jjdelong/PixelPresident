@@ -16,5 +16,10 @@ namespace HackStreet
         {
             InitializeComponent();
         }
+
+        private void nextBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
