@@ -21,8 +21,10 @@
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand text-center">
+
             <h1>Hackstreet</h1>
             <h3 class="title text-center">ByteJam 2020</h3>
+
           </div>
         </div>
       </div>
