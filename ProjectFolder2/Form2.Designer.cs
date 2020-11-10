@@ -70,6 +70,8 @@
             this.ForeignRelationslabel = new System.Windows.Forms.Label();
             this.Agelabel = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.PartyEmpty = new System.Windows.Forms.Label();
+            this.Party = new System.Windows.Forms.Label();
             this.Popularity.SuspendLayout();
             this.Events.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -122,7 +124,6 @@
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.textBox1.Size = new System.Drawing.Size(673, 298);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // tabPage2
             // 
@@ -397,6 +398,8 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.PartyEmpty);
+            this.tabPage5.Controls.Add(this.Party);
             this.tabPage5.Controls.Add(this.RaceEmpty);
             this.tabPage5.Controls.Add(this.GenderEmpty);
             this.tabPage5.Controls.Add(this.AgeEmpty);
@@ -485,6 +488,24 @@
             this.label13.TabIndex = 8;
             this.label13.Text = "Name:";
             // 
+            // PartyEmpty
+            // 
+            this.PartyEmpty.AutoSize = true;
+            this.PartyEmpty.Location = new System.Drawing.Point(332, 15);
+            this.PartyEmpty.Name = "PartyEmpty";
+            this.PartyEmpty.Size = new System.Drawing.Size(116, 37);
+            this.PartyEmpty.TabIndex = 17;
+            this.PartyEmpty.Text = "PartyEmpty";
+            // 
+            // Party
+            // 
+            this.Party.AutoSize = true;
+            this.Party.Location = new System.Drawing.Point(196, 15);
+            this.Party.Name = "Party";
+            this.Party.Size = new System.Drawing.Size(100, 37);
+            this.Party.TabIndex = 16;
+            this.Party.Text = "Party:";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -552,5 +573,7 @@
         private System.Windows.Forms.Label ForeignRelationslabel;
         private System.Windows.Forms.Label Agelabel;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label PartyEmpty;
+        private System.Windows.Forms.Label Party;
     }
 }

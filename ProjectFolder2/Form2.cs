@@ -15,6 +15,7 @@ namespace HackStreet
         public Form2()
         {
             InitializeComponent();
+
         }
 
         private void PublicSpeakinglbl_Click(object sender, EventArgs e)
@@ -38,9 +39,22 @@ namespace HackStreet
             //popup.Dispose();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
 
+
+        private void tabPage5_Load(object sender, EventArgs e)
+        {
+            List<President> sortList = new List<President>(PartyPick.presList);
+            sortList.Sort();
+
+            foreach (var item in sortList)
+            {
+
+                PartyEmpty.Text += item.Party;
+                RaceEmpty.Text += item.Gender;
+                AgeEmpty.Text += item.Age;
+                RaceEmpty.Text += item.Race;
+            }
         }
+
     }
 }
