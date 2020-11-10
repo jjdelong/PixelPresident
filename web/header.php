@@ -1,7 +1,7 @@
 <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="">Hackstreet Boys</a>
+        <a class="navbar-brand" href="http://localhost/PixelPresident-main/PixelPresident-main/web/index.php">Hackstreet Boys</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="sr-only">Toggle navigation</span>
           <span class="navbar-toggler-icon"></span>
@@ -11,15 +11,19 @@
       </div>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="http://localhost/PixelPresident-main/PixelPresident-main/web/index.php">
+              <i class="material-icons">home</i>Home</a>
+          </li>
           <li class="dropdown nav-item">
             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
               <i class="material-icons">apps</i> Components
             </a>
             <div class="dropdown-menu dropdown-with-icons">
-              <a href="./index.html" class="dropdown-item">
-                <i class="material-icons">games</i>Game 1</a>
-              <a href="" class="dropdown-item">
-                <i class="material-icons">games</i>Game 2</a>
+              <a href="http://localhost/PixelPresident-main/PixelPresident-main/web/game-1.php" class="dropdown-item">
+                <i class="material-icons">games</i>Demon's Souls</a>
+                <a href="http://localhost/PixelPresident-main/PixelPresident-main/web/game-2.php" class="dropdown-item">
+                <i class="material-icons">games</i>Destiny</a>
               <a href="" class="dropdown-item">
                 <i class="material-icons">games</i>Game 3</a>
               <a href="" class="dropdown-item">
