@@ -3,23 +3,20 @@
       <nav class="float-left">
         <ul>
           <li>
-            <a href="">
-              About Us
-            </a>
+            <a href="http://localhost/PixelPresident/web/index.php">Home</a>
           </li>
           <li>
-            <a href="">
-              Blog
-            </a>
+            <a href="http://localhost/PixelPresident/web/game-1.php">Demon's Soul</a>
           </li>
           <li>
-            <a href="">
-              Licenses
-            </a>
+            <a href="http://localhost/PixelPresident/web/game-2.php">Destiny</a>
+          </li>
+          <li>
+            <a href="">About Us</a>
           </li>
         </ul>
       </nav>
-      <div class="copyright float-right">
+      <div class="copyright float-right clearfix">
         &copy;
         <script>
           document.write(new Date().getFullYear())
@@ -27,7 +24,9 @@
         <a href="" target="_blank">Hackstreet Boys</a>
       </div>
     </div>
-  </footer>
+    <br>
+  </footer> 
+  
     <!--   Core JS Files   -->
   <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
   <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
@@ -48,13 +47,4 @@
       // Sliders Init
       materialKit.initSliders();
     });
-
-
-    function scrollToDownload() {
-      if ($('.section-download').length != 0) {
-        $("html, body").animate({
-          scrollTop: $('.section-download').offset().top
-        }, 1000);
-      }
-    }
   </script>
