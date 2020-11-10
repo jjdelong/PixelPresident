@@ -39,24 +39,24 @@
         <br>
           <div class="row">
             <div class="col-sm-2 ml-auto">
-                <img src="./assets/img/placeholder clear.png" alt="Raised Image" class="img-raised rounded img-fluid">
-                <h4>Rounded Raised</h4>
+              <a href=""><img src="./assets/img/placeholder clear.png" alt="Game 1" class="img-raised rounded img-fluid"></a>
+              <h4 class="text-center"><a href="">Game 1</a></h4>
             </div>
             <div class="col-sm-2 ml-auto">
-              <img src="./assets/img/placeholder clear.png" alt="Raised Image" class="img-raised rounded img-fluid">
-                <h4>Rounded Raised</h4>
+              <a href=""><img src="./assets/img/placeholder clear.png" alt="Game 2" class="img-raised rounded img-fluid"></a>
+              <h4 class="text-center"><a href="">Game 2</a></h4>
             </div>
             <div class="col-sm-2 ml-auto">
-              <img src="./assets/img/placeholder clear.png" alt="Raised Image" class="img-raised rounded img-fluid">
-                <h4>Rounded Raised</h4>
+              <a href=""><img src="./assets/img/placeholder clear.png" alt="Game 3" class="img-raised rounded img-fluid"></a>
+              <h4 class="text-center"><a href="">Game 3</a></h4>
             </div>
             <div class="col-sm-2 ml-auto">
-              <img src="./assets/img/placeholder clear.png" alt="Raised Image" class="img-raised rounded img-fluid">
-                <h4>Rounded Raised</h4>
+              <a href=""><img src="./assets/img/placeholder clear.png" alt="Game 4" class="img-raised rounded img-fluid"></a>
+              <h4 class="text-center"><a href="">Game 4</a></h4>
             </div>
           </div>
-          <div class="space-50"></div>
       </div>
+      <div class="space-100"></div>
     </div>
   </div>
  
