@@ -68,7 +68,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.BackgroundImage = global::HackStreet.Properties.Resources.flag;
+          //  this.BackgroundImage = global::HackStreet.Properties.Resources.flag;
             this.ClientSize = new System.Drawing.Size(764, 415);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.startButton);

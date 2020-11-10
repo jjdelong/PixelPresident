@@ -1,0 +1,16 @@
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.csprojAssemblyReference.cache
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.Actions.resources
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.EventPopup.resources
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.Form1.resources
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.Form2.resources
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.Information.resources
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.PartyPick.resources
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.Skills.resources
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.csproj.GenerateResource.cache
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\bin\Debug\HackStreet.exe.config
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\bin\Debug\HackStreet.exe
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\bin\Debug\HackStreet.pdb
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.Properties.Resources.resources
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.csproj.CoreCompileInputs.cache
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.exe
+C:\Users\Jeremy\Documents\GitHub\PixelPresident\ProjectFolder2\obj\Debug\HackStreet.pdb

@@ -19,9 +19,10 @@ namespace HackStreet
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            //this.Close();
+            Form2 f = new Form2();
+            f.ShowDialog();
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
