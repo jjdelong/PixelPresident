@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-
+<?php include('header.php'); ?>
 <head>
   <title>Hackstreet Boys</title>
   <!-- Required meta tags -->
@@ -15,9 +15,6 @@
 </head>
 
 <body>
-  
-  <?php include('header.php'); ?>
-
   <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/bg3.jpg')">
     <div class="container">
       <div class="row">
