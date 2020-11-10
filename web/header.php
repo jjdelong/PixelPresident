@@ -17,8 +17,7 @@
           </li>
           <li class="dropdown nav-item">
             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-              <i class="material-icons">apps</i> Components
-            </a>
+              <i class="material-icons">apps</i>Games</a>
             <div class="dropdown-menu dropdown-with-icons">
               <a href="http://localhost/PixelPresident/web/game-1.php" class="dropdown-item">
                 <i class="material-icons">games</i>Demon's Souls</a>
