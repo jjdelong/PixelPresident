@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-<?php include('header.php'); ?>
 <head>
   <title>Hackstreet Boys</title>
   <!-- Required meta tags -->
@@ -14,26 +13,25 @@
   <link href="assets/css/material-kit.css?v=2.0.7" rel="stylesheet" />
 </head>
 
+
 <body>
-  <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/bg3.jpg')">
+<?php include('header.php'); ?>
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/city-profile.jpg')">
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand text-center">
-            <h1>The Hack Street Boys</h1>
-            <h3 class="title text-center">Subtitle</h3>
+
+            <h1>Hackstreet</h1>
+            <h3 class="title text-center">ByteJam 2020</h3>
+
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="main main-raised">
-    <div class="container">
-      <div class="section text-center">
-        <h2 class="title">Your main section here</h2>
-      </div>
-    </div>
-  </div>
+
+  <?php include('game-links.php'); ?>
  
   <?php include('footer.php'); ?>
 

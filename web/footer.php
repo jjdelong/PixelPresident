@@ -3,17 +3,17 @@
       <nav class="float-left">
         <ul>
           <li>
-            <a href="https://www.creative-tim.com/presentation">
+            <a href="">
               About Us
             </a>
           </li>
           <li>
-            <a href="https://www.creative-tim.com/blog">
+            <a href="">
               Blog
             </a>
           </li>
           <li>
-            <a href="https://www.creative-tim.com/license">
+            <a href="">
               Licenses
             </a>
           </li>
@@ -24,7 +24,7 @@
         <script>
           document.write(new Date().getFullYear())
         </script>, made with <i class="material-icons">favorite</i> by
-        <a href="https://www.creative-tim.com/" target="_blank">Hackstreet Boys</a>
+        <a href="" target="_blank">Hackstreet Boys</a>
       </div>
     </div>
   </footer>
