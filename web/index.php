@@ -20,7 +20,7 @@
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand text-center">
-            <h1>Your title here</h1>
+            <h1>The Hack Street Boys</h1>
             <h3 class="title text-center">Subtitle</h3>
           </div>
         </div>
