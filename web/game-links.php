@@ -5,14 +5,9 @@
         <div class="space-50"></div>
             <br>
             <div class="row">
-                <div class="col-sm-5 ml-auto">
+                <div class="col-lg-12 ml-auto mr-auto">
                     <a href="http://localhost/PixelPresident/web/game-1.php"><img src="./assets/img/placeholder_clear.png" alt="Game 1" class="img-raised rounded img-fluid"></a>
                     <h4 class="text-center"><a href="http://localhost/PixelPresident/web/game-1.php">Demon's Souls</a></h4>
-                </div>
-
-                <div class="col-sm-5 ml-auto">
-                    <a href="http://localhost/PixelPresident/web/game-2.php"><img src="./assets/img/placeholder_clear.png" alt="Game 2" class="img-raised rounded img-fluid"></a>
-                    <h4 class="text-center"><a href="http://localhost/PixelPresident/web/game-2.php">Destiny</a></h4>
                 </div>
             </div>
         </div>
