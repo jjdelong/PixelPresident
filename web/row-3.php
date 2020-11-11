@@ -7,13 +7,13 @@
                         <li class="nav-item">
                             <a class="nav-link">
                             <i class="material-icons">face</i>
-                            Profile
+                            Aaron Lang
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">
                             <i class="material-icons">chat</i>
-                            Messages
+                            Game C# Developer - Video Editor
                             </a>
                         </li>
                     </ul>
@@ -41,13 +41,13 @@
                         <li class="nav-item">
                             <a class="nav-link">
                             <i class="material-icons">face</i>
-                            Profile
+                            Mario Mills
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">
                             <i class="material-icons">chat</i>
-                            Messages
+                            Assistant Graphics Designer
                             </a>
                         </li>
                     </ul>
