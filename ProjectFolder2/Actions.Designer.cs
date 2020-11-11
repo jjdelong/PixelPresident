@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Actions));
             this.label1 = new System.Windows.Forms.Label();
             this.actionCheckBox = new System.Windows.Forms.CheckedListBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -183,6 +184,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.actionCheckBox);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Actions";
             this.Text = "Actions";
             this.ResumeLayout(false);
