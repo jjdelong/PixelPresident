@@ -22,6 +22,7 @@
                     <div class="title">
                         <div class="space-40"></div>
                         <h2>Presidential Campaign</h2>
+                        <p class="text-justify">Enter your canidate information on the home screen. On the following screen, select your canidate attributes. After being elected as the president you are allowed to select a maximum of actions. The following screen will let you know whether or not you've been relected.</p>
                     </div>
 
                     <div id="carousel">

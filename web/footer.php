@@ -18,7 +18,7 @@
         <script>
           document.write(new Date().getFullYear())
         </script>, made with <i class="material-icons">favorite</i> by
-        <a href="" target="_blank">Hackstreet Boys</a>
+        <a class="text-danger" href="" target="_blank">Hackstreet Boys</a>
       </div>
     </div>
     <br>
