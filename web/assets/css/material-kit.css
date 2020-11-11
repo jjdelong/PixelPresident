@@ -11913,6 +11913,11 @@ label {
   display: block;
 }
 
+.space-40 {
+  height: 40px;
+  display: block;
+}
+
 .space-50 {
   height: 50px;
   display: block;
