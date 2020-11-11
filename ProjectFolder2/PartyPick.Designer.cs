@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PartyPick));
             this.partyLabel = new System.Windows.Forms.Label();
             this.demoPartyRadio = new System.Windows.Forms.RadioButton();
             this.republicanPartyRadio = new System.Windows.Forms.RadioButton();
@@ -203,6 +204,7 @@
             this.Controls.Add(this.republicanPartyRadio);
             this.Controls.Add(this.demoPartyRadio);
             this.Controls.Add(this.partyLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PartyPick";
             this.Text = "PartyPick";
             this.Load += new System.EventHandler(this.PartyPick_Load);
