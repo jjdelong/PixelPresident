@@ -269,18 +269,7 @@
             </div>
         </div>
 		</div>
-        
-		
-        
     </div>
-
-          
-        
-      
-    
-  
-
-  
   <div class="space-50"></div>
   <?php include('footer.php'); ?>
   <?php include('back_to_top.php'); ?>
