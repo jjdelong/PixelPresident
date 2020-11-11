@@ -29,305 +29,38 @@
   </div> 
   
   <div class="main main-raised">
-    <div class="container">
-      <div id="images">
-      <div class="space-50"></div>
-      <br>
-        <div class="row">
-          <div id="nav-tabs">
-			      <h3>Hackstreet Boys<h3>
-			    </div>
+      <div class="container">
+        <div id="images">
+        <div class="space-50"></div>
+        <br>
+          <div class="row">
+            <div id="nav-tabs">
+              <h3>Hackstreet Boys<h3>
+            </div>
+          </div>
+
+            <div class="row">
+              <?php include('row-1.php'); ?>
+            </div>  <!-- END .row -->
+
+            <div class="row">
+              <?php include('row-2.php'); ?>
+            </div>  <!-- END .row -->
+
+            <div class="row">
+              <?php include('row-3.php'); ?>
+            </div>  <!-- END .row -->
+
+            <div class="row">
+              <?php include('row-4.php'); ?>
+            </div>  <!-- END .row -->
+
+          </div>
         </div>
+      <div class="space-110"></div>
+  </div>
 
-                <div class="row"> <!-- NEW team member row -->
-                  <div class="col-md-6">  <!-- NEW team member box -->
-                    <div class="card card-nav-tabs">
-                      <div class="card-header card-header-primary">
-                        <div class="nav-tabs-navigation">
-                          <div class="nav-tabs-wrapper">
-                            <ul class="nav nav-tabs" data-tabs="tabs">
-                              <li class="nav-item">
-                                <a class="nav-link">
-                                  <i class="material-icons">face</i>
-                                  Profile
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link">
-                                  <i class="material-icons">chat</i>
-                                  Messages
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                <div class="card-body ">
-                  <div class="tab-content text-center">
-                    <div class="tab-pane active" id="profile">
-                      <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                    </div>
-                    <div class="tab-pane" id="messages">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6">  <!-- NEW team member box -->
-                    <div class="card card-nav-tabs">
-                      <div class="card-header card-header-primary">
-                        <div class="nav-tabs-navigation">
-                          <div class="nav-tabs-wrapper">
-                            <ul class="nav nav-tabs" data-tabs="tabs">
-                              <li class="nav-item">
-                                <a class="nav-link" href="#profile" data-toggle="tab">
-                                  <i class="material-icons">face</i>
-                                  Profile
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#messages" data-toggle="tab">
-                                  <i class="material-icons">chat</i>
-                                  Messages
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                <div class="card-body ">
-                  <div class="tab-content text-center">
-                    <div class="tab-pane active" id="profile">
-                      <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                    </div>
-                    <div class="tab-pane" id="messages">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>  <!-- END .row -->
-
-          <div class="row"> <!-- NEW team member row -->
-                  <div class="col-md-6">  <!-- NEW team member box -->
-                    <div class="card card-nav-tabs">
-                      <div class="card-header card-header-primary">
-                        <div class="nav-tabs-navigation">
-                          <div class="nav-tabs-wrapper">
-                            <ul class="nav nav-tabs" data-tabs="tabs">
-                              <li class="nav-item">
-                                <a class="nav-link" href="#profile" data-toggle="tab">
-                                  <i class="material-icons">face</i>
-                                  Profile
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#messages" data-toggle="tab">
-                                  <i class="material-icons">chat</i>
-                                  Messages
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                <div class="card-body ">
-                  <div class="tab-content text-center">
-                    <div class="tab-pane active" id="profile">
-                      <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                    </div>
-                    <div class="tab-pane" id="messages">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6">  <!-- NEW team member box -->
-                    <div class="card card-nav-tabs">
-                      <div class="card-header card-header-primary">
-                        <div class="nav-tabs-navigation">
-                          <div class="nav-tabs-wrapper">
-                            <ul class="nav nav-tabs" data-tabs="tabs">
-                              <li class="nav-item">
-                                <a class="nav-link" href="#profile" data-toggle="tab">
-                                  <i class="material-icons">face</i>
-                                  Profile
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#messages" data-toggle="tab">
-                                  <i class="material-icons">chat</i>
-                                  Messages
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                <div class="card-body ">
-                  <div class="tab-content text-center">
-                    <div class="tab-pane active" id="profile">
-                      <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                    </div>
-                    <div class="tab-pane" id="messages">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>  <!-- END .row -->
-
-          <div class="row"> <!-- NEW team member row -->
-                  <div class="col-md-6">  <!-- NEW team member box -->
-                    <div class="card card-nav-tabs">
-                      <div class="card-header card-header-primary">
-                        <div class="nav-tabs-navigation">
-                          <div class="nav-tabs-wrapper">
-                            <ul class="nav nav-tabs" data-tabs="tabs">
-                              <li class="nav-item">
-                                <a class="nav-link" href="#profile" data-toggle="tab">
-                                  <i class="material-icons">face</i>
-                                  Profile
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#messages" data-toggle="tab">
-                                  <i class="material-icons">chat</i>
-                                  Messages
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                <div class="card-body ">
-                  <div class="tab-content text-center">
-                    <div class="tab-pane active" id="profile">
-                      <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                    </div>
-                    <div class="tab-pane" id="messages">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6">  <!-- NEW team member box -->
-                    <div class="card card-nav-tabs">
-                      <div class="card-header card-header-primary">
-                        <div class="nav-tabs-navigation">
-                          <div class="nav-tabs-wrapper">
-                            <ul class="nav nav-tabs" data-tabs="tabs">
-                              <li class="nav-item">
-                                <a class="nav-link" href="#profile" data-toggle="tab">
-                                  <i class="material-icons">face</i>
-                                  Profile
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#messages" data-toggle="tab">
-                                  <i class="material-icons">chat</i>
-                                  Messages
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                <div class="card-body ">
-                  <div class="tab-content text-center">
-                    <div class="tab-pane active" id="profile">
-                      <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                    </div>
-                    <div class="tab-pane" id="messages">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>  <!-- END .row -->
-
-          <div class="row"> <!-- NEW team member row -->
-                  <div class="col-md-6">  <!-- NEW team member box -->
-                    <div class="card card-nav-tabs">
-                      <div class="card-header card-header-primary">
-                        <div class="nav-tabs-navigation">
-                          <div class="nav-tabs-wrapper">
-                            <ul class="nav nav-tabs" data-tabs="tabs">
-                              <li class="nav-item">
-                                <a class="nav-link" href="#profile" data-toggle="tab">
-                                  <i class="material-icons">face</i>
-                                  Profile
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#messages" data-toggle="tab">
-                                  <i class="material-icons">chat</i>
-                                  Messages
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                <div class="card-body ">
-                  <div class="tab-content text-center">
-                    <div class="tab-pane active" id="profile">
-                      <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                    </div>
-                    <div class="tab-pane" id="messages">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6">  <!-- NEW team member box -->
-                    <div class="card card-nav-tabs">
-                      <div class="card-header card-header-primary">
-                        <div class="nav-tabs-navigation">
-                          <div class="nav-tabs-wrapper">
-                            <ul class="nav nav-tabs" data-tabs="tabs">
-                              <li class="nav-item">
-                                <a class="nav-link" href="#profile" data-toggle="tab">
-                                  <i class="material-icons">face</i>
-                                  Profile
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#messages" data-toggle="tab">
-                                  <i class="material-icons">chat</i>
-                                  Messages
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                <div class="card-body ">
-                  <div class="tab-content text-center">
-                    <div class="tab-pane active" id="profile">
-                      <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-                    </div>
-                    <div class="tab-pane" id="messages">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>  <!-- END .row -->
-
-        </div>
-      </div>
-    </div>
-        </div>  <!-- END .row -->
-        
-          
-			  
-			  
-  <div class="space-50"></div>
+  <div class="space-40"></div>
   <?php include('footer.php'); ?>
   <?php include('back_to_top.php'); ?>
 </body>
