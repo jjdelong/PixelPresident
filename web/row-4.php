@@ -7,13 +7,13 @@
                         <li class="nav-item">
                             <a class="nav-link">
                             <i class="material-icons">face</i>
-                            Profile
+                            Taylor McGrann
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">
                             <i class="material-icons">chat</i>
-                            Messages
+                            Game C# Developer
                             </a>
                         </li>
                     </ul>
@@ -41,13 +41,13 @@
                         <li class="nav-item">
                             <a class="nav-link">
                             <i class="material-icons">face</i>
-                            Profile
+                            Hunter Peden
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">
                             <i class="material-icons">chat</i>
-                            Messages
+                            Assistant Graphics Design
                             </a>
                         </li>
                     </ul>
