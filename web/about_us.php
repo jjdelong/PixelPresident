@@ -40,7 +40,7 @@
 			    </div>
 			  </div>
           
-<<<<<<< HEAD
+
           <div class="row">
 		  <div class ="space-50"></div>
             <div class="col-md-6">
