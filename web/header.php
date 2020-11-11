@@ -23,10 +23,6 @@
                 <i class="material-icons">games</i>Demon's Souls</a>
                 <a href="http://localhost/PixelPresident/web/game-2.php" class="dropdown-item">
                 <i class="material-icons">games</i>Destiny</a>
-              <a href="" class="dropdown-item">
-                <i class="material-icons">games</i>Game 3</a>
-              <a href="" class="dropdown-item">
-                <i class="material-icons">games</i>Game 4</a>
             </div>
           </li>
           <li class="nav-item">
