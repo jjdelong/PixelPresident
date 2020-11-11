@@ -13,7 +13,6 @@
   <link href="assets/css/material-kit.css?v=2.0.7" rel="stylesheet" />
 </head>
 
-
 <body>
 <?php include('header.php'); ?>
   <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/city-profile.jpg')">
@@ -21,10 +20,8 @@
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand text-center">
-
             <h1>Hackstreet</h1>
             <h3 class="title text-center">ByteJam 2020</h3>
-
           </div>
         </div>
       </div>
@@ -36,5 +33,4 @@
   <?php include('footer.php'); ?>
   <?php include('back_to_top.php'); ?>
 </body>
-
 </html>
