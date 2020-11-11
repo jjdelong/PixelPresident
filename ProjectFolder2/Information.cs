@@ -33,12 +33,15 @@ namespace HackStreet
                    // item.ToString();
                     
             }
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Actions aP = new Actions();
-            aP.ShowDialog();
+            //Actions aP = new Actions();
+            //aP.ShowDialog();
+            Form2 f = new Form2();
+            f.ShowDialog();
         }
     }
 }
