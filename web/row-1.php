@@ -7,13 +7,13 @@
                         <li class="nav-item">
                             <a class="nav-link">
                             <i class="material-icons">face</i>
-                            Profile
+                            Christopher Carlson
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">
-                            <i class="material-icons">chat</i>
-                            Messages
+                            <i class="material-icons">task</i>
+                            Web Development
                             </a>
                         </li>
                     </ul>
@@ -23,7 +23,7 @@
         <div class="card-body ">
             <div class="tab-content text-center">
                 <div class="tab-pane active" id="profile">
-                    <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                    <p>Assisted with the website Development Process such as adding and organizing the html code. </p>
                 </div>
                     <div class="tab-pane" id="messages">
                 </div>
@@ -41,13 +41,13 @@
                         <li class="nav-item">
                             <a class="nav-link">
                             <i class="material-icons">face</i>
-                            Profile
+                            Josh DeLong
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">
                             <i class="material-icons">chat</i>
-                            Messages
+                            Web Development
                             </a>
                         </li>
                     </ul>
@@ -57,7 +57,7 @@
         <div class="card-body ">
             <div class="tab-content text-center">
                 <div class="tab-pane active" id="profile">
-                    <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                    <p>Setup and organized our website into a more efficient manner.</p>
                 </div>
                     <div class="tab-pane" id="messages">
                 </div>
