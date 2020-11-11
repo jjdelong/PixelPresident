@@ -12,7 +12,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">
-                            <i class="material-icons">chat</i>
+                            <i class="material-icons">task</i>
                             Game C# Developer
                             </a>
                         </li>
@@ -46,7 +46,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">
-                            <i class="material-icons">chat</i>
+                            <i class="material-icons">task</i>
                             Assistant Graphics Design
                             </a>
                         </li>

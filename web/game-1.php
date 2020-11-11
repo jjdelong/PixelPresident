@@ -15,7 +15,7 @@
 
         <body>
             <?php include('header.php'); ?>
-            <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/gameplay/demon souls.jpg')"></div>
+            <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/game-bg.png')"></div>
 
             <div class="main main-raised">
                 <div class="container">
