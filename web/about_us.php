@@ -40,11 +40,11 @@
 			 </div>
 			 </div>
           
-          <div class="row"><!--
+          <div class="row">
 		  <div class ="space-50"></div>
             <div class="col-md-6">
               
-              <!-- Tabs with icons on Card -->
+              <!-- Tabs with icons on Card, Christopher Carlson -->
               <div class="card card-nav-tabs">
                 <div class="card-header card-header-primary">
                   <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -82,10 +82,11 @@
                   </div>
                 </div>
               </div>
-              <!-- End Tabs with icons on Card --> 
+              <!-- End Tabs with icons on Card, Christopher Carlson--> 
 			  </div>
 			  
 			  <div class ="col-md-6">
+			  <!-- Tabs with icons on Card, Jeremy Mooney -->
 			  <div class="card card-nav-tabs">
                 <div class="card-header card-header-primary">
                   <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -95,13 +96,13 @@
                         <li class="nav-item">
                           <a class="nav-link">
                             <i class="material-icons">face</i>
-                            Christopher Carlson
+                            Jeremy Mooney
                           </a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link">
                             <i class="material-icons">chat</i>
-                            Website Development
+                            ####
                           </a>
                         </li>
                         
@@ -124,12 +125,13 @@
                 </div>
               </div>
             </div>
+			<!-- End Tabs with icons on Card, Jeremy Mooney -->
 			  </div>
 			  <div class="row">
 		  <div class ="space-50"></div>
             <div class="col-md-6">
               
-              <!-- Tabs with icons on Card -->
+              <!-- Tabs with icons on Card, Hunter Pedan-->
               <div class="card card-nav-tabs">
                 <div class="card-header card-header-primary">
                   <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -139,13 +141,13 @@
                         <li class="nav-item">
                           <a class="nav-link">
                             <i class="material-icons">face</i>
-                            Christopher Carlson
+                            Hunter Pedan
                           </a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link">
                             <i class="material-icons">chat</i>
-                            Website Development
+                            #####
                           </a>
                         </li>
                         
@@ -167,10 +169,11 @@
                   </div>
                 </div>
               </div>
-              <!-- End Tabs with icons on Card --> 
+              <!-- End Tabs with icons on Card, Hunter Pedan --> 
 			  </div>
 			  
 			  <div class ="col-md-6">
+			  <!-- Tabs with icons on Card, Spencer Baty -->
 			  <div class="card card-nav-tabs">
                 <div class="card-header card-header-primary">
                   <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -180,13 +183,13 @@
                         <li class="nav-item">
                           <a class="nav-link">
                             <i class="material-icons">face</i>
-                            Christopher Carlson
+                            Spencer Baty
                           </a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link">
                             <i class="material-icons">chat</i>
-                            Website Development
+                            ####
                           </a>
                         </li>
                         
@@ -208,13 +211,14 @@
                   </div>
                 </div>
               </div>
+			  <!-- Tabs with icons on Card, Spencer Baty -->
             </div>
 			  </div>
 			  <div class="row">
 		  <div class ="space-50"></div>
             <div class="col-md-6">
               
-              <!-- Tabs with icons on Card -->
+              <!-- Tabs with icons on Card, Taylor Mcgrann -->
               <div class="card card-nav-tabs">
                 <div class="card-header card-header-primary">
                   <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -224,13 +228,13 @@
                         <li class="nav-item">
                           <a class="nav-link">
                             <i class="material-icons">face</i>
-                            Christopher Carlson
+                            Taylor Mcgrann
                           </a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link">
                             <i class="material-icons">chat</i>
-                            Website Development
+                            ####
                           </a>
                         </li>
                         
@@ -252,10 +256,11 @@
                   </div>
                 </div>
               </div>
-              <!-- End Tabs with icons on Card --> 
+              <!-- End Tabs with icons on Card, Taylor Mcgrann --> 
 			  </div>
 			  
 			  <div class ="col-md-6">
+			  <!-- End Tabs with icons on Card, Aaron Lang -->
 			  <div class="card card-nav-tabs">
                 <div class="card-header card-header-primary">
                   <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -265,13 +270,13 @@
                         <li class="nav-item">
                           <a class="nav-link">
                             <i class="material-icons">face</i>
-                            Christopher Carlson
+                            Aaron Lang
                           </a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link">
                             <i class="material-icons">chat</i>
-                            Website Development
+                            ####
                           </a>
                         </li>
                         
@@ -293,11 +298,13 @@
                   </div>
                 </div>
               </div>
+			  <!-- End Tabs with icons on Card, Aaron Lang -->
             </div>
 			  </div>
 			 
 			  <div class ="row">
 			  <div class ="col-md-6">
+			  <!-- End Tabs with icons on Card, Josh Delong -->
 			  <div class="card card-nav-tabs">
                 <div class="card-header card-header-primary">
                   <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
@@ -307,7 +314,7 @@
                         <li class="nav-item">
                           <a class="nav-link">
                             <i class="material-icons">face</i>
-                            Christopher Carlson
+                            Josh Delong
                           </a>
                         </li>
                         <li class="nav-item">
@@ -335,8 +342,10 @@
                   </div>
                 </div>
               </div>
+			  <!-- End Tabs with icons on Card, Josh Delong -->
             </div>
 			<div class ="col-md-6">
+			<!-- Tabs with icons on Card, Mario Mills
 			  <div class="card card-nav-tabs">
                 <div class="card-header card-header-primary">
                   <!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
