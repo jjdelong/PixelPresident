@@ -1,7 +1,7 @@
 <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="http://localhost/PixelPresident/web/index.php">Hackstreet Boys</a>
+        <a class="navbar-brand" href="http://localhost/PixelPresident/web/index.php"><img src="assets/img/hackstreet boys logo.png"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="sr-only">Toggle navigation</span>
           <span class="navbar-toggler-icon"></span>

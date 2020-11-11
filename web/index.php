@@ -15,13 +15,11 @@
 
 <body>
 <?php include('header.php'); ?>
-  <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/city-profile.jpg')">
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/home-bg.png')">
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto">
           <div class="brand text-center">
-            <h1>Hackstreet</h1>
-            <h3 class="title text-center">ByteJam 2020</h3>
           </div>
         </div>
       </div>
