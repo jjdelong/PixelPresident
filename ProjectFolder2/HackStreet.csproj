@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>3079311.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -137,6 +140,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="demo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="repub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Libertarian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="independet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="megaphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="handshake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="monee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="handshake redone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3079311.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

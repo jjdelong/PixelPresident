@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.Popularity = new System.Windows.Forms.TabControl();
             this.Events = new System.Windows.Forms.TabPage();
             this.Eventbtn = new System.Windows.Forms.Button();
@@ -62,6 +63,8 @@
             this.ActionsEmpty = new System.Windows.Forms.Label();
             this.Actionslbl = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.PartyEmpty = new System.Windows.Forms.Label();
+            this.Party = new System.Windows.Forms.Label();
             this.RaceEmpty = new System.Windows.Forms.Label();
             this.GenderEmpty = new System.Windows.Forms.Label();
             this.AgeEmpty = new System.Windows.Forms.Label();
@@ -70,14 +73,26 @@
             this.ForeignRelationslabel = new System.Windows.Forms.Label();
             this.Agelabel = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.PartyEmpty = new System.Windows.Forms.Label();
-            this.Party = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.Popularity.SuspendLayout();
             this.Events.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.Actionslabel.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Popularity
@@ -127,6 +142,11 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.pictureBox5);
+            this.tabPage2.Controls.Add(this.pictureBox4);
+            this.tabPage2.Controls.Add(this.pictureBox3);
+            this.tabPage2.Controls.Add(this.pictureBox2);
+            this.tabPage2.Controls.Add(this.pictureBox1);
             this.tabPage2.Controls.Add(this.progressBar5);
             this.tabPage2.Controls.Add(this.progressBar4);
             this.tabPage2.Controls.Add(this.progressBar3);
@@ -147,21 +167,21 @@
             // 
             // progressBar5
             // 
-            this.progressBar5.Location = new System.Drawing.Point(390, 251);
+            this.progressBar5.Location = new System.Drawing.Point(390, 287);
             this.progressBar5.Name = "progressBar5";
             this.progressBar5.Size = new System.Drawing.Size(204, 37);
             this.progressBar5.TabIndex = 9;
             // 
             // progressBar4
             // 
-            this.progressBar4.Location = new System.Drawing.Point(390, 208);
+            this.progressBar4.Location = new System.Drawing.Point(390, 227);
             this.progressBar4.Name = "progressBar4";
             this.progressBar4.Size = new System.Drawing.Size(204, 37);
             this.progressBar4.TabIndex = 8;
             // 
             // progressBar3
             // 
-            this.progressBar3.Location = new System.Drawing.Point(390, 152);
+            this.progressBar3.Location = new System.Drawing.Point(390, 162);
             this.progressBar3.Name = "progressBar3";
             this.progressBar3.Size = new System.Drawing.Size(204, 37);
             this.progressBar3.TabIndex = 7;
@@ -175,7 +195,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(390, 56);
+            this.progressBar1.Location = new System.Drawing.Point(390, 39);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(204, 37);
             this.progressBar1.TabIndex = 5;
@@ -183,7 +203,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(175, 251);
+            this.label4.Location = new System.Drawing.Point(175, 287);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(209, 37);
             this.label4.TabIndex = 4;
@@ -192,7 +212,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(175, 201);
+            this.label3.Location = new System.Drawing.Point(175, 227);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(169, 37);
             this.label3.TabIndex = 3;
@@ -201,7 +221,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(175, 152);
+            this.label2.Location = new System.Drawing.Point(175, 162);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(188, 37);
             this.label2.TabIndex = 2;
@@ -219,7 +239,7 @@
             // Democrats
             // 
             this.Democrats.AutoSize = true;
-            this.Democrats.Location = new System.Drawing.Point(175, 49);
+            this.Democrats.Location = new System.Drawing.Point(175, 39);
             this.Democrats.Name = "Democrats";
             this.Democrats.Size = new System.Drawing.Size(172, 37);
             this.Democrats.TabIndex = 0;
@@ -247,35 +267,35 @@
             // 
             // progressBar6
             // 
-            this.progressBar6.Location = new System.Drawing.Point(371, 246);
+            this.progressBar6.Location = new System.Drawing.Point(413, 246);
             this.progressBar6.Name = "progressBar6";
             this.progressBar6.Size = new System.Drawing.Size(204, 37);
             this.progressBar6.TabIndex = 19;
             // 
             // progressBar7
             // 
-            this.progressBar7.Location = new System.Drawing.Point(371, 189);
+            this.progressBar7.Location = new System.Drawing.Point(413, 189);
             this.progressBar7.Name = "progressBar7";
             this.progressBar7.Size = new System.Drawing.Size(204, 37);
             this.progressBar7.TabIndex = 18;
             // 
             // progressBar8
             // 
-            this.progressBar8.Location = new System.Drawing.Point(371, 133);
+            this.progressBar8.Location = new System.Drawing.Point(413, 133);
             this.progressBar8.Name = "progressBar8";
             this.progressBar8.Size = new System.Drawing.Size(204, 37);
             this.progressBar8.TabIndex = 17;
             // 
             // progressBar9
             // 
-            this.progressBar9.Location = new System.Drawing.Point(371, 83);
+            this.progressBar9.Location = new System.Drawing.Point(413, 83);
             this.progressBar9.Name = "progressBar9";
             this.progressBar9.Size = new System.Drawing.Size(204, 37);
             this.progressBar9.TabIndex = 16;
             // 
             // progressBar10
             // 
-            this.progressBar10.Location = new System.Drawing.Point(371, 24);
+            this.progressBar10.Location = new System.Drawing.Point(413, 24);
             this.progressBar10.Name = "progressBar10";
             this.progressBar10.Size = new System.Drawing.Size(204, 37);
             this.progressBar10.TabIndex = 15;
@@ -283,7 +303,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(62, 246);
+            this.label5.Location = new System.Drawing.Point(96, 246);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(283, 37);
             this.label5.TabIndex = 14;
@@ -293,7 +313,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(138, 189);
+            this.label6.Location = new System.Drawing.Point(137, 189);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(174, 37);
             this.label6.TabIndex = 13;
@@ -302,7 +322,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(113, 133);
+            this.label7.Location = new System.Drawing.Point(126, 133);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(219, 37);
             this.label7.TabIndex = 12;
@@ -311,7 +331,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(113, 83);
+            this.label8.Location = new System.Drawing.Point(137, 83);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(189, 37);
             this.label8.TabIndex = 11;
@@ -320,7 +340,7 @@
             // PublicSpeakinglbl
             // 
             this.PublicSpeakinglbl.AutoSize = true;
-            this.PublicSpeakinglbl.Location = new System.Drawing.Point(77, 24);
+            this.PublicSpeakinglbl.Location = new System.Drawing.Point(99, 24);
             this.PublicSpeakinglbl.Name = "PublicSpeakinglbl";
             this.PublicSpeakinglbl.Size = new System.Drawing.Size(246, 37);
             this.PublicSpeakinglbl.TabIndex = 10;
@@ -328,6 +348,10 @@
             // 
             // Actionslabel
             // 
+            this.Actionslabel.Controls.Add(this.button4);
+            this.Actionslabel.Controls.Add(this.button3);
+            this.Actionslabel.Controls.Add(this.button2);
+            this.Actionslabel.Controls.Add(this.button1);
             this.Actionslabel.Controls.Add(this.FederalFundsLabel);
             this.Actionslabel.Controls.Add(this.ManageForeignlabel);
             this.Actionslabel.Controls.Add(this.NewPolicylabel);
@@ -345,7 +369,7 @@
             // FederalFundsLabel
             // 
             this.FederalFundsLabel.AutoSize = true;
-            this.FederalFundsLabel.Location = new System.Drawing.Point(238, 267);
+            this.FederalFundsLabel.Location = new System.Drawing.Point(233, 327);
             this.FederalFundsLabel.Name = "FederalFundsLabel";
             this.FederalFundsLabel.Size = new System.Drawing.Size(348, 37);
             this.FederalFundsLabel.TabIndex = 5;
@@ -354,7 +378,7 @@
             // ManageForeignlabel
             // 
             this.ManageForeignlabel.AutoSize = true;
-            this.ManageForeignlabel.Location = new System.Drawing.Point(238, 191);
+            this.ManageForeignlabel.Location = new System.Drawing.Point(222, 237);
             this.ManageForeignlabel.Name = "ManageForeignlabel";
             this.ManageForeignlabel.Size = new System.Drawing.Size(391, 37);
             this.ManageForeignlabel.TabIndex = 4;
@@ -363,7 +387,7 @@
             // NewPolicylabel
             // 
             this.NewPolicylabel.AutoSize = true;
-            this.NewPolicylabel.Location = new System.Drawing.Point(238, 124);
+            this.NewPolicylabel.Location = new System.Drawing.Point(222, 150);
             this.NewPolicylabel.Name = "NewPolicylabel";
             this.NewPolicylabel.Size = new System.Drawing.Size(305, 37);
             this.NewPolicylabel.TabIndex = 3;
@@ -372,7 +396,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(238, 63);
+            this.label9.Location = new System.Drawing.Point(222, 63);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(124, 37);
             this.label9.TabIndex = 2;
@@ -381,7 +405,7 @@
             // ActionsEmpty
             // 
             this.ActionsEmpty.AutoSize = true;
-            this.ActionsEmpty.Location = new System.Drawing.Point(341, 7);
+            this.ActionsEmpty.Location = new System.Drawing.Point(430, 3);
             this.ActionsEmpty.Name = "ActionsEmpty";
             this.ActionsEmpty.Size = new System.Drawing.Size(213, 37);
             this.ActionsEmpty.TabIndex = 1;
@@ -390,7 +414,7 @@
             // Actionslbl
             // 
             this.Actionslbl.AutoSize = true;
-            this.Actionslbl.Location = new System.Drawing.Point(212, 7);
+            this.Actionslbl.Location = new System.Drawing.Point(304, 3);
             this.Actionslbl.Name = "Actionslbl";
             this.Actionslbl.Size = new System.Drawing.Size(132, 37);
             this.Actionslbl.TabIndex = 0;
@@ -416,10 +440,28 @@
             this.tabPage5.Text = "Bio";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // PartyEmpty
+            // 
+            this.PartyEmpty.AutoSize = true;
+            this.PartyEmpty.Location = new System.Drawing.Point(283, 15);
+            this.PartyEmpty.Name = "PartyEmpty";
+            this.PartyEmpty.Size = new System.Drawing.Size(181, 37);
+            this.PartyEmpty.TabIndex = 17;
+            this.PartyEmpty.Text = "PartyEmpty";
+            // 
+            // Party
+            // 
+            this.Party.AutoSize = true;
+            this.Party.Location = new System.Drawing.Point(189, 15);
+            this.Party.Name = "Party";
+            this.Party.Size = new System.Drawing.Size(100, 37);
+            this.Party.TabIndex = 16;
+            this.Party.Text = "Party:";
+            // 
             // RaceEmpty
             // 
             this.RaceEmpty.AutoSize = true;
-            this.RaceEmpty.Location = new System.Drawing.Point(312, 266);
+            this.RaceEmpty.Location = new System.Drawing.Point(283, 266);
             this.RaceEmpty.Name = "RaceEmpty";
             this.RaceEmpty.Size = new System.Drawing.Size(180, 37);
             this.RaceEmpty.TabIndex = 15;
@@ -428,7 +470,7 @@
             // GenderEmpty
             // 
             this.GenderEmpty.AutoSize = true;
-            this.GenderEmpty.Location = new System.Drawing.Point(312, 196);
+            this.GenderEmpty.Location = new System.Drawing.Point(283, 196);
             this.GenderEmpty.Name = "GenderEmpty";
             this.GenderEmpty.Size = new System.Drawing.Size(213, 37);
             this.GenderEmpty.TabIndex = 14;
@@ -437,7 +479,7 @@
             // AgeEmpty
             // 
             this.AgeEmpty.AutoSize = true;
-            this.AgeEmpty.Location = new System.Drawing.Point(312, 129);
+            this.AgeEmpty.Location = new System.Drawing.Point(283, 129);
             this.AgeEmpty.Name = "AgeEmpty";
             this.AgeEmpty.Size = new System.Drawing.Size(164, 37);
             this.AgeEmpty.TabIndex = 13;
@@ -446,7 +488,7 @@
             // NameEmpty
             // 
             this.NameEmpty.AutoSize = true;
-            this.NameEmpty.Location = new System.Drawing.Point(312, 68);
+            this.NameEmpty.Location = new System.Drawing.Point(283, 68);
             this.NameEmpty.Name = "NameEmpty";
             this.NameEmpty.Size = new System.Drawing.Size(193, 37);
             this.NameEmpty.TabIndex = 12;
@@ -455,7 +497,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(176, 266);
+            this.label10.Location = new System.Drawing.Point(189, 266);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(99, 37);
             this.label10.TabIndex = 11;
@@ -464,7 +506,7 @@
             // ForeignRelationslabel
             // 
             this.ForeignRelationslabel.AutoSize = true;
-            this.ForeignRelationslabel.Location = new System.Drawing.Point(176, 196);
+            this.ForeignRelationslabel.Location = new System.Drawing.Point(156, 196);
             this.ForeignRelationslabel.Name = "ForeignRelationslabel";
             this.ForeignRelationslabel.Size = new System.Drawing.Size(132, 37);
             this.ForeignRelationslabel.TabIndex = 10;
@@ -473,7 +515,7 @@
             // Agelabel
             // 
             this.Agelabel.AutoSize = true;
-            this.Agelabel.Location = new System.Drawing.Point(176, 129);
+            this.Agelabel.Location = new System.Drawing.Point(205, 129);
             this.Agelabel.Name = "Agelabel";
             this.Agelabel.Size = new System.Drawing.Size(83, 37);
             this.Agelabel.TabIndex = 9;
@@ -488,23 +530,96 @@
             this.label13.TabIndex = 8;
             this.label13.Text = "Name:";
             // 
-            // PartyEmpty
+            // pictureBox5
             // 
-            this.PartyEmpty.AutoSize = true;
-            this.PartyEmpty.Location = new System.Drawing.Point(332, 15);
-            this.PartyEmpty.Name = "PartyEmpty";
-            this.PartyEmpty.Size = new System.Drawing.Size(116, 37);
-            this.PartyEmpty.TabIndex = 17;
-            this.PartyEmpty.Text = "PartyEmpty";
+            this.pictureBox5.Image = global::HackStreet.Properties.Resources.independet;
+            this.pictureBox5.Location = new System.Drawing.Point(54, 274);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 14;
+            this.pictureBox5.TabStop = false;
             // 
-            // Party
+            // pictureBox4
             // 
-            this.Party.AutoSize = true;
-            this.Party.Location = new System.Drawing.Point(196, 15);
-            this.Party.Name = "Party";
-            this.Party.Size = new System.Drawing.Size(100, 37);
-            this.Party.TabIndex = 16;
-            this.Party.Text = "Party:";
+            this.pictureBox4.Image = global::HackStreet.Properties.Resources.green;
+            this.pictureBox4.Location = new System.Drawing.Point(54, 142);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 57);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 13;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::HackStreet.Properties.Resources.Libertarian;
+            this.pictureBox3.Location = new System.Drawing.Point(54, 205);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 59);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::HackStreet.Properties.Resources.repub;
+            this.pictureBox2.Location = new System.Drawing.Point(54, 86);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::HackStreet.Properties.Resources.demo;
+            this.pictureBox1.Location = new System.Drawing.Point(54, 26);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::HackStreet.Properties.Resources.megaphone;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Location = new System.Drawing.Point(126, 46);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(90, 70);
+            this.button4.TabIndex = 13;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = global::HackStreet.Properties.Resources.paper;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Location = new System.Drawing.Point(126, 133);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(90, 70);
+            this.button3.TabIndex = 12;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::HackStreet.Properties.Resources.handshake_redone;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Location = new System.Drawing.Point(126, 220);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(90, 70);
+            this.button2.TabIndex = 11;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::HackStreet.Properties.Resources.monee;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(126, 310);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 70);
+            this.button1.TabIndex = 10;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
@@ -512,6 +627,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(724, 445);
             this.Controls.Add(this.Popularity);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.Text = "Pixel President";
             this.Popularity.ResumeLayout(false);
@@ -525,6 +641,11 @@
             this.Actionslabel.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -575,5 +696,14 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label PartyEmpty;
         private System.Windows.Forms.Label Party;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
